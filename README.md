@@ -1,7 +1,8 @@
-# 🔐 Cracker de Hash Personalizado (Shell Script)
+## 🔐 Cracker de Hash Personalizado (Shell Script)
 
 Este projeto é um **script em Bash** desenvolvido para descobrir a senha original de um hash SHA1 gerado a partir da seguinte lógica de transformação:
 senha → MD5 (hex string) → Base64 → SHA1 → hash final
+
 ---
 
 ## 🎯 Objetivo
