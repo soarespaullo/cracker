@@ -48,6 +48,7 @@ Verifique ou edite o valor do hash (`ALVO`)
 
 ## 📦 Exemplo de Saída
 
+```bash
 ╔═════════════════════════════════════════════════════════╗
 ║             🔐 CRACKER DE HASH PERSONALIZADO            ║
 ║             Lógica: MD5 (hex) → Base64 → SHA1           ║
@@ -55,6 +56,7 @@ Verifique ou edite o valor do hash (`ALVO`)
 
 [*] Iniciando ataque... (MD5 → Base64 → SHA1)
 [+] SENHA ENCONTRADA: monkey
+```
 
 ## 📚 Explicação Técnica
 
