@@ -83,4 +83,4 @@ MIT License. Livre para estudar, modificar e compartilhar.
 
 ## ✍️ Autor
 
-Desenvolvido por [Seu Nome] — Aluno de Cibersegurança
+Desenvolvido por **[Paulo Soares]**(https://soarespaullo.github.io) — Aluno de Cibersegurança
