@@ -24,14 +24,13 @@ Durante uma atividade prática de pentest, foi identificado que a aplicação ut
 
 1. **Clone o repositório**:
 
-   ```bash
-   git clone https://github.com/soarespaullo/cracker.sh.git
-   cd hash-cracker-shell
-   ```
+```bash
+https://github.com/soarespaullo/cracker.git
+```
    
 2. Dê permissão de execução ao script:
 
-```
+```bash
 chmod +x cracker.sh
 ```
 
