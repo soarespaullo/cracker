@@ -72,6 +72,47 @@ Etapas do script:
 
 - Compara com o hash fornecido
 
+## 💡 Exemplo prático: Gerar seu próprio hash
+
+Suponha que você queira criar um hash para a senha `segredo123`. Siga os passos:
+
+```bash
+echo -n "segredo123" | md5sum
+# → b0a94f3aa6e4f12dcf370f4881d84136
+
+echo -n "b0a94f3aa6e4f12dcf370f4881d84136" | base64
+# → YjBhOTRmM2FhNmU0ZjEyZGNmMzcwZjQ4ODFkODQxMzY=
+
+echo -n "YjBhOTRmM2FhNmU0ZjEyZGNmMzcwZjQ4ODFkODQxMzY=" | sha1sum
+# → c1392c80843bc1b7625570c4eb8502b9f01a3db8
+```
+
+Agora, altere no script:
+
+```bash
+ALVO="c1392c80843bc1b7625570c4eb8502b9f01a3db8"
+```
+
+Crie/adicione a uma wordlist com a senha:
+
+```bash
+echo "segredo123" > minha_wordlist.txt
+```
+E aponte no script:
+
+```bash
+WORDLIST="minha_wordlist.txt"
+```
+
+## 🧠 Lógica usada no script
+
+```bash
+senha → MD5 (em texto hexadecimal)
+      → codificado em Base64 (da string hex)
+      → SHA1 da string Base64
+      → comparado com o hash fornecido
+```
+
 ## 🔒 Observação de Segurança
 
 Este projeto tem fins educacionais e deve ser utilizado apenas em ambientes de teste, laboratório ou CTFs.
