@@ -115,8 +115,8 @@ senha → MD5 (em texto hexadecimal)
 
 ## 🔒 Observação de Segurança
 
-Este projeto tem fins educacionais e deve ser utilizado apenas em ambientes de teste, laboratório ou CTFs.
-Nunca use este tipo de ataque contra sistemas reais sem autorização explícita.
+Este projeto tem fins educacionais e deve ser utilizado apenas em ambientes de teste, `laboratório` ou `CTFs`.
+Nunca use este tipo de ataque contra sistemas reais sem `autorização explícita`.
 
 ## 📄 Licença
 
