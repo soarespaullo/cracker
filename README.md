@@ -36,9 +36,9 @@ chmod +x cracker.sh
 
 3. Edite o script (opcional):
 
-Verifique ou altere o caminho para a wordlist (`WORDLIST`)
+- Verifique ou altere o caminho para a wordlist (`WORDLIST`)
 
-Verifique ou edite o valor do hash (`ALVO`)
+- Verifique ou edite o valor do hash (`ALVO`)
 
 4. Execute o script:
 
