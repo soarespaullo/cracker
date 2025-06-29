@@ -79,7 +79,7 @@ Nunca use este tipo de ataque contra sistemas reais sem autorização explícita
 
 ## 📄 Licença
 
-MIT License. Livre para estudar, modificar e compartilhar.
+**[MIT License](https://github.com/soarespaullo/cracker/blob/main/LICENSE)**. Livre para estudar, modificar e compartilhar.
 
 ## ✍️ Autor
 
